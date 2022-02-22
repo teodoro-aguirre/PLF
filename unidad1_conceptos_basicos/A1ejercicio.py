@@ -18,5 +18,4 @@ def factorial(n):
         return fact
     
 print(factorial(6))
-
-2+5
+# Resultado 
