@@ -42,9 +42,9 @@ const MayorMenorIgual = (lista) => {
         return 0
     return mayor + menor
 }
-const lista = [5, 1, 2, 3, 5, 8, 2, 3, 0, 1, 1]
+const cadena = [5, 1, 2, 3, 5, 8, 2, 3, 0, 1, 1]
 const listaIgual = [2, 2, 2, 2, 2]
 const numero = 5
 console.log("El numero: " + 10 + " aparece: " + cuentaNumeros([1,2,3], 10) + " veces, la suma del mayor y menor es: " + sumaMayorMenor([1, 2, 3]))
 console.log(MayorMenorIgual(listaIgual))
-console.log(MayorMenorIgual(lista))
+console.log(MayorMenorIgual(cadena))

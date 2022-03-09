@@ -4,9 +4,8 @@
 // b. Si a[i] es impar entonces b[i] = fibonacci(a[i])
 
 const factFib = (a) => {
-    let i;
     let b = [];
-    for(i = 0; i < a.length; i++){
+    for(let i = 0; i < a.length; i++){
         let valor = a[i]
         if( valor % 2 == 0){ // Es par
             b.push(factorialRecursivo(valor))
@@ -35,7 +34,7 @@ const factorialRecursivo = (numero) => {
 // RECURSIVO
 let b = []
 function factFibRecursiva(a){
-    arregloAux = a;
+    
     if(a.length == 0)
         return b
     let valor = a[0]
@@ -49,8 +48,6 @@ function factFibRecursiva(a){
     return factFibRecursiva(a);
 }
 
-
-factFibRecursiva([1,2,3,4,5,6])
-console.log(b)
+console.log(factFibRecursiva([1,2,3,4,5,6]))
 
 // console.log(factFib([1,2,3,4,5,6]))
